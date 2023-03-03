@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pilha</title>
+  <meta name="description"
+    content="Página do projeto de um visualizador interativo de estrutura de dados em português brasileiro">
+  <meta name="keywords" content="estrutura de dados, visualizador, interativo, projeto, HTML, português brasileiro">
+  <meta name="author" content="Thiago Gomes Possa">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+
+<body>
+  <nav class="navbar is-transparent">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://bulma.io">
+        <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox"
+          width="112" height="28">
+      </a>
+      <div class="navbar-burger" data-target="navbarExampleTransparentExample">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <div id="navbarExampleTransparentExample" class="navbar-menu">
+      <div class="navbar-start">
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Menu
+          </a>
+          <div class="navbar-dropdown is-boxed">
+            <a class="navbar-item" href="index.html">
+              Ínicio
+            </a>
+            <hr class="navbar-divider">
+            <a class="navbar-item" href="pilha.html">
+              Pilha
+            </a>
+            <a class="navbar-item" href="fila.html">
+              Fila
+            </a>
+            <a class="navbar-item" href="lista.html">
+              Lista
+            </a>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+  <section class="section">
+    <div class="content">
+      <h1>Pilha</h1>
+      <p>Uma Pilha é uma estrutura de dados que segue a ordem Last-In-First-Out (LIFO), ou seja, o último elemento
+        adicionado é o primeiro a ser removido. Essa estrutura é composta por um conjunto de elementos que são
+        empilhados uns sobre os outros, e apenas o elemento do topo da pilha é acessível.</p>
+      <p>Os principais métodos de uma Pilha são:</p>
+      <ul>
+        <li><strong>Push: </strong>Adiciona um elemento ao topo da Pilhaa</li>
+        <li><strong>Pop: </strong>Remove o elemento do topo da Pilha</li>
+        <li><strong>Peek: </strong>Retorna o elemento do topo da Pilha sem removê-lo</li>
+        <li><strong>isEmpty: </strong>Verifica se a Pilha está vazia</li>
+        <li><strong>isFull: </strong>Verifica se a Pilha está cheia (depende da implementação)</li>
+      </ul>
+      <p>As motivações para o uso de Pilhas são diversas, como em algoritmos que necessitam de inversão de ordem ou em
+        situações onde é necessário armazenar uma lista de itens temporariamente. Ela pode ser utilizada para a inversão
+        de uma sequência de elementos, por exemplo.</p>
+      <p>A primeira vez que a estrutura de dados Pilha foi utilizada foi em 1946, por um matemático húngaro chamado
+        <strong>John von Neumann</strong>. Ele a utilizou em um algoritmo para a solução de um problema matemático.</p>
+      <h3>Manipule uma fila de forma interativa</h3>
+      <iframe src="https://editor.p5js.org/thiagopos/full/K43bHR1erf" frameborder="0" scrolling="no" width="640"
+        height="402"></iframe>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        &copy; 2023 Visualizador Interativo de Estrutura de Dados. Todos os direitos reservados.
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>
